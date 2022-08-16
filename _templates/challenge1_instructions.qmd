@@ -1,6 +1,6 @@
 ---
 title: "Challenge 1 Instructions"
-author: "Animesh Sengupta"
+author: "Meredith Rolfe"
 desription: "Reading in data and creating a post"
 date: "08/15/2022"
 format:
@@ -44,9 +44,7 @@ Read in one (or more) of the following data sets, using the correct R package an
 Find the `_data` folder, located inside the `posts` folder. Then you can read in the data, using either one of the `readr` standard tidy read commands, or a specialized package such as `readxl`.
 
 ```{r}
-library(readr)
-debt_data <- read_csv("../posts/_data/birds.csv")
-head(debt_data)
+
 ```
 
 Add any comments or documentation as needed. More challenging data sets may require additional code chunks and documentation.
@@ -57,5 +55,5 @@ Using a combination of words and results of R commands, can you provide a high l
 
 ```{r}
 #| label: summary
-head(debt_data)
+
 ```
