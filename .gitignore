@@ -48,5 +48,5 @@ _site/
 .DS_Store
 
 #site_libs
-_freeze/site_libs/
+_freeze/site_libs
 
